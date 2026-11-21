@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Steny Ann Rajan | Data Analyst</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-pill" aria-label="Main Navigation">
+      <div class="nav-group left">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+      </div>
+
+      <a href="index.html" class="brand" aria-label="Steny Ann Rajan Home">
+        <span class="brand-icon">SR</span>
+        <span class="brand-name">Steny</span>
+      </a>
+
+      <div class="nav-group right">
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="mailto:stenyannrajan@example.com" class="nav-link">Contact</a>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="resume.html" class="nav-link">Resume</a>
+      <a href="projects.html" class="nav-link active">Projects</a>
+      <a href="mailto:stenyannrajan@example.com" class="nav-link">Contact</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <div class="hello-wrap">
+        <span class="hello-pill">Selected Work</span>
+      </div>
+      <h1>Data Analytics <span class="accent">Projects</span></h1>
+      <p>
+        Explore interactive dashboards, SQL analytics pipelines, and Python modeling case studies designed to solve real business problems.
+      </p>
+
+      <div class="filter-bar" role="tablist" aria-label="Filter projects by category">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="bi">BI &amp; Dashboards</button>
+        <button class="filter-btn" data-filter="python">Python &amp; ML</button>
+        <button class="filter-btn" data-filter="sql">SQL &amp; Analytics</button>
+      </div>
+    </section>
+
+    <section class="projects-grid">
+      <!-- Project 1 -->
+      <article class="preview-card project-card" data-category="bi">
+        <img src="project-sales.png" alt="Executive Sales & Revenue Dashboard" class="preview-thumb" />
+        <div class="preview-body">
+          <span class="project-metric">+18% Margin Opportunity</span>
+          <h3>Executive Sales &amp; Revenue Dashboard</h3>
+          <p>Automated multi-region Power BI dashboard analyzing 120K+ retail transactions, YoY revenue trends, and category profitability.</p>
+          <div class="tag-row" style="margin-bottom:16px;">
+            <span class="tag-light">Power BI</span>
+            <span class="tag-light">DAX</span>
+            <span class="tag-light">SQL</span>
+          </div>
+          <button class="card-link" data-project="sales">View Case Study ↗</button>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="preview-card project-card" data-category="python">
+        <img src="project-churn.png" alt="Customer Churn Prediction" class="preview-thumb" />
+        <div class="preview-body">
+          <span class="project-metric">86% ROC-AUC Score</span>
+          <h3>Customer Churn Risk &amp; Prediction</h3>
+          <p>End-to-end Python churn modeling pipeline identifying high-risk contract segments and key behavioral drivers of attrition.</p>
+          <div class="tag-row" style="margin-bottom:16px;">
+            <span class="tag-light">Python</span>
+            <span class="tag-light">Pandas</span>
+            <span class="tag-light">Scikit-Learn</span>
+          </div>
+          <button class="card-link" data-project="churn">View Case Study ↗</button>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="preview-card project-card" data-category="python">
+        <img src="project-supply.png" alt="Supply Chain Inventory Optimization" class="preview-thumb" />
+        <div class="preview-body">
+          <span class="project-metric">-22% Stockout Risk</span>
+          <h3>Supply Chain &amp; Inventory Optimization</h3>
+          <p>Time-series demand forecasting and safety stock modeling across 450+ SKUs to cut holding costs and prevent stockouts.</p>
+          <div class="tag-row" style="margin-bottom:16px;">
+            <span class="tag-light">Python</span>
+            <span class="tag-light">Statsmodels</span>
+            <span class="tag-light">Tableau</span>
+          </div>
+          <button class="card-link" data-project="supply">View Case Study ↗</button>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="preview-card project-card" data-category="sql">
+        <img src="project-cohort.png" alt="SQL Cohort Retention Matrix" class="preview-thumb" />
+        <div class="preview-body">
+          <span class="project-metric">500K+ Orders Analyzed</span>
+          <h3>E-Commerce SQL Cohort &amp; Retention</h3>
+          <p>PostgreSQL CTE and window-function analysis quantifying quarterly retention curves, repeat velocity, and RFM customer segments.</p>
+          <div class="tag-row" style="margin-bottom:16px;">
+            <span class="tag-light">PostgreSQL</span>
+            <span class="tag-light">SQL</span>
+            <span class="tag-light">RFM</span>
+          </div>
+          <button class="card-link" data-project="cohort">View Case Study ↗</button>
+        </div>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="preview-card project-card" data-category="bi">
+        <img src="project-health.png" alt="Hospital Wait-Time Reduction Analytics" class="preview-thumb" />
+        <div class="preview-body">
+          <span class="project-metric">-38% ER Wait Time</span>
+          <h3>Healthcare Operations &amp; Scheduling</h3>
+          <p>Tableau operational analytics across 85K+ outpatient visits pinpointing triage bottlenecks and optimal shift staffing.</p>
+          <div class="tag-row" style="margin-bottom:16px;">
+            <span class="tag-light">Tableau</span>
+            <span class="tag-light">SQL</span>
+            <span class="tag-light">Excel</span>
+          </div>
+          <button class="card-link" data-project="health">View Case Study ↗</button>
+        </div>
+      </article>
+
+      <!-- Project 6 -->
+      <article class="preview-card project-card" data-category="sql">
+        <img src="project-finance.png" alt="Financial KPI & Budget Variance" class="preview-thumb" />
+        <div class="preview-body">
+          <span class="project-metric">9% Spend Anomaly Flagged</span>
+          <h3>Quarterly Budget &amp; Variance Tracker</h3>
+          <p>Automated financial reporting suite reconciling departmental actuals against forecast to flag recurring cloud and SaaS variances.</p>
+          <div class="tag-row" style="margin-bottom:16px;">
+            <span class="tag-light">Excel</span>
+            <span class="tag-light">Power Query</span>
+            <span class="tag-light">Power BI</span>
+          </div>
+          <button class="card-link" data-project="finance">View Case Study ↗</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Case Study Modal -->
+  <div id="projectModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button id="modalClose" class="modal-close" aria-label="Close modal">✕</button>
+      <img id="modalImg" src="" alt="" class="modal-img" />
+      <div class="modal-content">
+        <span id="modalCategory" class="tag-light"></span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalSummary"></p>
+        <div class="modal-highlights">
+          <h4>Key Impact &amp; Findings</h4>
+          <ul id="modalHighlights"></ul>
+        </div>
+        <div id="modalTools" class="tag-row"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <h2>Let's Turn Data Into <span class="accent">Decisions</span></h2>
+          <p style="color:#A0A6B1; margin-top:6px;">Open to Data Analyst roles, analytics consulting, and collaborative BI projects.</p>
+        </div>
+        <a href="mailto:stenyannrajan@example.com" class="btn-primary-pill">Get in Touch ↗</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Steny Ann Rajan. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="projects.html">Projects</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

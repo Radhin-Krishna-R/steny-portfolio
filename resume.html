@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume — Steny Ann Rajan | Data Analyst</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-pill" aria-label="Main Navigation">
+      <div class="nav-group left">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="resume.html" class="nav-link active">Resume</a>
+      </div>
+
+      <a href="index.html" class="brand" aria-label="Steny Ann Rajan Home">
+        <span class="brand-icon">SR</span>
+        <span class="brand-name">Steny</span>
+      </a>
+
+      <div class="nav-group right">
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="mailto:stenyannrajan@example.com" class="nav-link">Contact</a>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="resume.html" class="nav-link active">Resume</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="mailto:stenyannrajan@example.com" class="nav-link">Contact</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <div class="hello-wrap">
+        <span class="hello-pill">Curriculum Vitae</span>
+      </div>
+      <h1>Steny Ann <span class="accent">Rajan</span></h1>
+      <p>
+        Detail-oriented Data Analyst skilled in SQL, Python, Power BI, Tableau, and statistical modeling—passionate about turning raw operational data into clear business narratives.
+      </p>
+
+      <div class="contact-strip">
+        <a href="mailto:stenyannrajan@example.com" class="contact-chip">✉ stenyannrajan@example.com</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-chip">in LinkedIn Profile</a>
+        <a href="https://github.com" target="_blank" rel="noopener" class="contact-chip">⌘ GitHub Portfolio</a>
+        <span class="contact-chip">📍 Kerala, India</span>
+      </div>
+
+      <div class="resume-actions">
+        <button onclick="window.print()" class="btn-primary-pill">Print / Save as PDF ↗</button>
+        <a href="projects.html" class="filter-btn">Explore My Projects</a>
+      </div>
+    </section>
+
+    <section class="resume-grid">
+      <!-- Left Main Column -->
+      <div>
+        <div class="resume-card">
+          <h2><span class="dot"></span> Professional Summary</h2>
+          <p style="color:#344054; font-size:0.96rem;">
+            Analytical and results-focused Data Analyst with strong foundations in data cleaning, exploratory data analysis, business intelligence dashboards, and SQL database querying. Experienced in translating stakeholder questions into structured metrics, automating recurring reports, and presenting actionable recommendations with clarity.
+          </p>
+        </div>
+
+        <div class="resume-card">
+          <h2><span class="dot"></span> Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-node"></div>
+              <div class="timeline-meta">
+                <div class="timeline-role">Data Analyst</div>
+                <span class="timeline-date">2025 – Present</span>
+              </div>
+              <div class="timeline-org">Analytics &amp; Business Intelligence</div>
+              <ul class="timeline-list">
+                <li>Designed interactive Power BI and Tableau dashboards tracking revenue, customer retention, and operational SLAs for cross-functional teams.</li>
+                <li>Automated weekly SQL and Python data pipelines, reducing manual spreadsheet preparation time by over 65%.</li>
+                <li>Partnered with stakeholders to define core KPIs, conduct A/B test readouts, and surface actionable growth opportunities.</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-node dark"></div>
+              <div class="timeline-meta">
+                <div class="timeline-role">Data Analytics Intern</div>
+                <span class="timeline-date">2024 – 2025</span>
+              </div>
+              <div class="timeline-org">Data &amp; Insights Team</div>
+              <ul class="timeline-list">
+                <li>Cleaned, validated, and merged multi-source datasets (100K+ rows) using Python (Pandas) and SQL to improve reporting accuracy.</li>
+                <li>Built automated Excel pivot and Power Query workbooks for monthly financial variance and regional sales reviews.</li>
+                <li>Presented concise slide decks highlighting customer churn drivers and seasonal demand patterns.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-card">
+          <h2><span class="dot"></span> Education</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-node"></div>
+              <div class="timeline-meta">
+                <div class="timeline-role">Bachelor's / Master's in Data Science &amp; Analytics</div>
+                <span class="timeline-date">2022 – 2025</span>
+              </div>
+              <div class="timeline-org">University / Institution Name</div>
+              <ul class="timeline-list">
+                <li>Relevant Coursework: Probability &amp; Statistics, Database Management Systems (SQL), Data Visualization, Machine Learning, Business Intelligence.</li>
+                <li>Completed capstone analytics projects spanning retail forecasting, churn modeling, and healthcare operations.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Sidebar Column -->
+      <div>
+        <div class="resume-card">
+          <h2><span class="dot"></span> Technical Skills</h2>
+
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>SQL (PostgreSQL / MySQL)</span><span>92%</span></div>
+            <div class="skill-track"><div class="skill-fill" style="width:92%"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>Power BI &amp; DAX</span><span>90%</span></div>
+            <div class="skill-track"><div class="skill-fill" style="width:90%"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>Python (Pandas, NumPy, Matplotlib)</span><span>86%</span></div>
+            <div class="skill-track"><div class="skill-fill" style="width:86%"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>Tableau Desktop</span><span>85%</span></div>
+            <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>Excel (Power Query, Pivot, VBA)</span><span>94%</span></div>
+            <div class="skill-track"><div class="skill-fill" style="width:94%"></div></div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-bar-head"><span>Statistics &amp; A/B Testing</span><span>82%</span></div>
+            <div class="skill-track"><div class="skill-fill" style="width:82%"></div></div>
+          </div>
+        </div>
+
+        <div class="resume-card">
+          <h2><span class="dot"></span> Tools &amp; Stack</h2>
+          <div class="tag-row">
+            <span class="tag-light">SQL</span>
+            <span class="tag-light">Python</span>
+            <span class="tag-light">Power BI</span>
+            <span class="tag-light">Tableau</span>
+            <span class="tag-light">Microsoft Excel</span>
+            <span class="tag-light">Pandas</span>
+            <span class="tag-light">Scikit-Learn</span>
+            <span class="tag-light">Jupyter</span>
+            <span class="tag-light">Git &amp; GitHub</span>
+            <span class="tag-light">ETL Pipelines</span>
+          </div>
+        </div>
+
+        <div class="resume-card">
+          <h2><span class="dot"></span> Certifications</h2>
+          <div class="cert-item">
+            <h4>Google Data Analytics Professional Certificate</h4>
+            <span>Coursera • SQL, R, Tableau, Spreadsheets</span>
+          </div>
+          <div class="cert-item">
+            <h4>Microsoft Power BI Data Analyst (PL-300 Prep)</h4>
+            <span>Data Modeling, DAX &amp; Executive Dashboards</span>
+          </div>
+          <div class="cert-item">
+            <h4>SQL for Data Science &amp; Analytics</h4>
+            <span>Window Functions, CTEs &amp; Query Optimization</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <h2>Let's Turn Data Into <span class="accent">Decisions</span></h2>
+          <p style="color:#A0A6B1; margin-top:6px;">Open to Data Analyst roles, analytics consulting, and collaborative BI projects.</p>
+        </div>
+        <a href="mailto:stenyannrajan@example.com" class="btn-primary-pill">Get in Touch ↗</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Steny Ann Rajan. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="projects.html">Projects</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

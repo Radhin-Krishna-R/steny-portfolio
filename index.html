@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steny Ann Rajan — Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-pill" aria-label="Main Navigation">
+      <div class="nav-group left">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+      </div>
+
+      <a href="index.html" class="brand" aria-label="Steny Ann Rajan Home">
+        <span class="brand-icon">SR</span>
+        <span class="brand-name">Steny</span>
+      </a>
+
+      <div class="nav-group right">
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="mailto:stenyannrajan@example.com" class="nav-link">Contact</a>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="resume.html" class="nav-link">Resume</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="mailto:stenyannrajan@example.com" class="nav-link">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container">
+        <div class="hello-wrap">
+          <span class="hello-pill">Hello!</span>
+          <svg class="spark-top" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M8 22C10 15 13 9 16 4" stroke="#FD853A" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M16 25C20 20 24 16 29 12" stroke="#FD853A" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M21 30C25 28 29 27 33 26" stroke="#FD853A" stroke-width="2.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div>
+          <div class="hero-title-wrap">
+            <h1 class="hero-title">
+              I'm <span class="accent">Steny Ann Rajan</span>,<br />
+              Data Analyst
+            </h1>
+            <svg class="spark-bottom" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M42 12C31 12 20 15 10 20" stroke="#FD853A" stroke-width="2.8" stroke-linecap="round"/>
+              <path d="M44 26C33 30 23 36 14 44" stroke="#FD853A" stroke-width="2.8" stroke-linecap="round"/>
+              <path d="M48 38C45 43 43 47 41 51" stroke="#FD853A" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero-stage">
+          <!-- Left Testimonial / Value Statement -->
+          <div class="hero-quote">
+            <div class="quote-mark">“</div>
+            <p>
+              Steny's analytical rigor and intuitive dashboards transform complex datasets into clear, high-impact business decisions.
+            </p>
+          </div>
+
+          <!-- Center Portrait + Orange Semi-Circle + Glass CTA -->
+          <div class="hero-visual">
+            <div class="orange-semicircle" aria-hidden="true"></div>
+            <div class="portrait-frame">
+              <img src="steny.jpg" alt="Steny Ann Rajan — Data Analyst" />
+            </div>
+            <div class="hero-cta-pill">
+              <a href="projects.html" class="btn-primary-pill">Projects ↗</a>
+              <a href="resume.html" class="btn-ghost-pill">Resume</a>
+            </div>
+          </div>
+
+          <!-- Right Rating / Metric -->
+          <div class="hero-rating">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <div class="stat-number">15+ Projects</div>
+            <div class="stat-label">SQL • Python • Power BI</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DARK CORE EXPERTISE SECTION -->
+    <section class="section-dark-wrap">
+      <div class="section-dark">
+        <div class="section-head">
+          <h2 class="section-title">My Analytics <span class="accent">Expertise</span></h2>
+          <p class="section-sub">
+            From raw, messy spreadsheets and relational databases to executive-ready visual storytelling and predictive models.
+          </p>
+        </div>
+
+        <div class="cards-3">
+          <article class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>BI &amp; Data Visualization</h3>
+            <p>
+              Designing clean, interactive Power BI and Tableau dashboards that surface KPIs, trends, and drill-down insights for stakeholders.
+            </p>
+            <div class="tag-row">
+              <span class="tag-dark">Power BI</span>
+              <span class="tag-dark">Tableau</span>
+              <span class="tag-dark">DAX</span>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">🗄️</div>
+            <h3>SQL &amp; Data Wrangling</h3>
+            <p>
+              Writing optimized queries, CTEs, and automated ETL cleaning workflows to ensure reliable, audit-ready analytical datasets.
+            </p>
+            <div class="tag-row">
+              <span class="tag-dark">PostgreSQL</span>
+              <span class="tag-dark">MySQL</span>
+              <span class="tag-dark">Power Query</span>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">📈</div>
+            <h3>Python &amp; Statistical Analysis</h3>
+            <p>
+              Applying exploratory data analysis, hypothesis testing, cohort modeling, and forecasting to uncover hidden growth levers.
+            </p>
+            <div class="tag-row">
+              <span class="tag-dark">Python</span>
+              <span class="tag-dark">Pandas</span>
+              <span class="tag-dark">Excel</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS PREVIEW -->
+    <section class="section-light">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+          <a href="projects.html" class="btn-primary-pill">View All Projects ↗</a>
+        </div>
+
+        <div class="cards-3">
+          <article class="preview-card">
+            <img src="project-sales.png" alt="Sales & Revenue Dashboard" class="preview-thumb" />
+            <div class="preview-body">
+              <div class="tag-row" style="margin-bottom:10px;">
+                <span class="tag-light">Power BI</span>
+                <span class="tag-light">SQL</span>
+              </div>
+              <h3>Executive Sales &amp; Revenue Dashboard</h3>
+              <p>Consolidated 120K+ retail transactions into an automated KPI dashboard revealing an 18% margin opportunity.</p>
+              <a href="projects.html" class="card-link">Explore Case Study ↗</a>
+            </div>
+          </article>
+
+          <article class="preview-card">
+            <img src="project-churn.png" alt="Customer Churn Analysis" class="preview-thumb" />
+            <div class="preview-body">
+              <div class="tag-row" style="margin-bottom:10px;">
+                <span class="tag-light">Python</span>
+                <span class="tag-light">Scikit-Learn</span>
+              </div>
+              <h3>Customer Churn Risk &amp; Retention Model</h3>
+              <p>Built a predictive churn scoring pipeline achieving 86% ROC-AUC to guide proactive customer retention campaigns.</p>
+              <a href="projects.html" class="card-link">Explore Case Study ↗</a>
+            </div>
+          </article>
+
+          <article class="preview-card">
+            <img src="project-cohort.png" alt="SQL Cohort Retention Matrix" class="preview-thumb" />
+            <div class="preview-body">
+              <div class="tag-row" style="margin-bottom:10px;">
+                <span class="tag-light">PostgreSQL</span>
+                <span class="tag-light">Tableau</span>
+              </div>
+              <h3>E-Commerce Cohort &amp; Retention Matrix</h3>
+              <p>Engineered SQL window-function pipelines across 500K+ orders to track repeat purchase velocity and RFM segments.</p>
+              <a href="projects.html" class="card-link">Explore Case Study ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <h2>Let's Turn Data Into <span class="accent">Decisions</span></h2>
+          <p style="color:#A0A6B1; margin-top:6px;">Open to Data Analyst roles, analytics consulting, and collaborative BI projects.</p>
+        </div>
+        <a href="mailto:stenyannrajan@example.com" class="btn-primary-pill">Get in Touch ↗</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Steny Ann Rajan. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="projects.html">Projects</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
